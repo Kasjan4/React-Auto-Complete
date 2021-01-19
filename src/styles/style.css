@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Raleway:wght@400;700&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+div {
+  margin: 0;
+}
+
+
+body {
+  background-color: black;
+  height: 100vh;
+}
+
+.search-bar {
+  font-weight: 300;
+  font-size: 3rem;
+  color: white;
+  background-color: transparent;
+  border-style: none;
+  border-bottom: 1px solid #1e77eb;
+}
+
+.search-bar::placeholder {
+  font-weight: 100;
+  color: rgb(255, 255, 255, 0.5);
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.search-wrapper {
+  position: relative;
+  top: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-results {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgb(255, 255, 255, 0.8);
+  overflow-y: scroll;
+}
+
+.search-results p {
+  padding-left: 1rem;
+  cursor: pointer;
+}
