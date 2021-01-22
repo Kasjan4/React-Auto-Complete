@@ -1,3 +1,3 @@
 # React auto-complete search bar with data from API
 
-[PLAY HERE](https://kasjanhinc.github.io/Snake/)
+[CHECK IT OUT HERE](https://kasjanhinc.github.io/React-Auto-Complete/)
