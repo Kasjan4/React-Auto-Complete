@@ -2,6 +2,7 @@
   "name": "runner",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "https://kasjanhinc.github.io/React-Auto-Complete/",
   "dependencies": {
     "axios": "^0.21.1",
     "react": "^16.9.0",
